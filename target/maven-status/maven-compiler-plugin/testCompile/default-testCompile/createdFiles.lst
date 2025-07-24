@@ -1,0 +1,4 @@
+com\example\bookapi\controller\BookControllerTest$TestConfig.class
+com\example\bookapi\BookApiApplicationTests.class
+com\example\bookapi\service\BookServiceTest.class
+com\example\bookapi\controller\BookControllerTest.class
