@@ -177,3 +177,24 @@ mvn test
 ```
 
 A test report will be generated in the `target/surefire-reports` directory.
+
+## Running with Docker
+
+This application is fully containerized using Docker, providing a consistent and isolated environment. Follow these steps to build the Docker image and run the application as a container.
+
+### Prerequisites
+
+*   **Docker Desktop** must be installed and running on your local machine.
+
+### Build & Run with Docker Commands
+
+This is the standard, universal way to run the application using Docker commands from your terminal.
+
+#### 1. Build the Docker Image
+
+First, you need to build the image from the `Dockerfile`. This command packages the application and all its dependencies into a single, portable image.
+
+Navigate to the project's root directory in your terminal and run:
+
+```sh
+docker build -t book-api:latest .
