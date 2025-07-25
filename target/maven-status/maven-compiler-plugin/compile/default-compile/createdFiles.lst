@@ -1,0 +1,8 @@
+com\example\bookapi\exception\ResourceNotFoundException.class
+com\example\bookapi\exception\GlobalExceptionHandler.class
+com\example\bookapi\model\Book.class
+com\example\bookapi\BookApiApplication.class
+com\example\bookapi\BookController\BookController.class
+com\example\bookapi\exception\GlobalExceptionHandler$ErrorDetails.class
+com\example\bookapi\BookRepository\BookRepository.class
+com\example\bookapi\BookService\BookService.class
