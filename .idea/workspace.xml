@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3212434c-b8c7-4320-b3a3-7ffff1208a4a" name="Changes" comment="add docker files and instructions">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookapi/BookService/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookapi/BookService/BookService.java" afterDir="false" />
+    <list default="true" id="3212434c-b8c7-4320-b3a3-7ffff1208a4a" name="Changes" comment="JIRA-123 : added started logback feature">
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/bookapi/BookService/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/bookapi/BookService/BookService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753387170196</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JIRA-123 : added started logback feature">
+      <option name="closed" value="true" />
+      <created>1753574460747</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753574460747</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +225,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added error handling and junit tests" />
     <MESSAGE value="add docker files and instructions" />
-    <option name="LAST_COMMIT_MESSAGE" value="add docker files and instructions" />
+    <MESSAGE value="JIRA-123 : added started logback feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="JIRA-123 : added started logback feature" />
   </component>
 </project>
