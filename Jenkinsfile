@@ -1,7 +1,10 @@
 pipeline {
     // 1. Define the agent (where the pipeline will run)
     agent any
-
+// ADD THIS 'TOOLS' BLOCK
+    tools {
+        // The name here MUST match the name you configured in Jenkins
+        maven 'Maven-3.9.11'
     // Define environment variables, including the Docker image name
     environment {
         DOCKER_IMAGE_NAME = "book-api"
