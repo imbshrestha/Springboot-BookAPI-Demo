@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3212434c-b8c7-4320-b3a3-7ffff1208a4a" name="Changes" comment="maven updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/book-api.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/book-api.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/bookapi/controller/BookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/bookapi/controller/BookControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/bookapi/BookApiApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/bookapi/controller/BookControllerTest$TestConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/bookapi/controller/BookControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/bookapi/service/BookServiceTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="docker/implementation" />
+        <entry key="$PROJECT_DIR$" value="dev/bug-fix" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,12 +50,18 @@
     &quot;accountId&quot;: &quot;0c558d4a-e0e8-466f-9d12-71ebcdc28838&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/example/bookapi/controller/BookControllerTest.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -64,6 +78,7 @@
     &quot;Application.BookApiApplication.executor&quot;: &quot;Run&quot;,
     &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.BookApiApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookControllerTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.com.example.bookapi in book-api.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -73,7 +88,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Docker&quot;
   }
 }</component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="JUnit.BookControllerTest">
     <configuration name="BookApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.bookapi.BookApiApplication" />
       <module name="book-api" />
@@ -97,6 +112,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.bookapi" />
       <option name="MAIN_CLASS_NAME" value="com.example.bookapi.BookApiApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.bookapi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.bookapi.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.bookapi.controller.BookControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookControllerTest" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="JUnit.com.example.bookapi in book-api" />
         <item itemvalue="JUnit.BookApiApplicationTests" />
-        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Application.BookApiApplication" />
-        <item itemvalue="JUnit.com.example.bookapi in book-api" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756234195114</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="maven updated">
+      <option name="closed" value="true" />
+      <created>1756234740455</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756234740455</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
